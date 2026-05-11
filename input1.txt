@@ -1,0 +1,33 @@
+6 9
+A B C D E F
+A B 34
+A F 19
+A C 46
+F C 25
+F D 25
+F E 26
+C D 17
+D E 38
+B E 12
+paths A C 10
+paths A F 10
+maxTrans 2
+paths A F 10
+maxTrans -1
+ban C
+ban D
+paths A F 10
+unban D
+paths A F 10
+ban D
+unban C
+paths A F 10
+unban C
+ban B
+paths A F 10
+unban D
+paths A F 10
+maxTrans 2
+paths A F 10
+paths A F 2
+quit
